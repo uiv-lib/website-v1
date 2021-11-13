@@ -1,0 +1,50 @@
+{
+  "name": "website-v1",
+  "version": "1.4.1",
+  "description": "Bootstrap 3 components implemented by Vue 2.",
+  "author": "wxsm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiv-lib/uiv.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uiv-lib/uiv/issues"
+  },
+  "homepage": "https://v1.uiv.wxsm.space",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "eslint --ext .js,.vue src build docs/.vuepress",
+    "lint:fix": "pnpm lint -- --fix"
+  },
+  "devDependencies": {
+    "bootstrap": "3.4.1",
+    "uiv": "1.4.1",
+    "cross-env": "7.0.3",
+    "es6-object-assign": "1.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-html": "6.2.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "5.1.1",
+    "eslint-plugin-vue": "8.0.3",
+    "lodash": "4.17.21",
+    "prettier": "2.4.1",
+    "@vuepress/plugin-active-header-links": "1.8.2",
+    "@vuepress/plugin-google-analytics": "1.8.2",
+    "less": "4.1.2",
+    "less-loader": "7.3.0",
+    "vuepress": "1.8.2",
+    "vuepress-plugin-redirect": "1.2.5",
+    "vuepress-plugin-sitemap": "2.3.1",
+    "axios": "0.24.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
