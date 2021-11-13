@@ -24,14 +24,11 @@ specifiers:
   vuepress-plugin-redirect: 1.2.5
   vuepress-plugin-sitemap: 2.3.1
 
-dependencies:
-  bootstrap: 3.4.1
-  uiv: registry.npmjs.org/uiv/1.4.1
-
 devDependencies:
   '@vuepress/plugin-active-header-links': registry.npmmirror.com/@vuepress/plugin-active-header-links/1.8.2
   '@vuepress/plugin-google-analytics': registry.npmmirror.com/@vuepress/plugin-google-analytics/1.8.2
   axios: registry.npmmirror.com/axios/0.24.0
+  bootstrap: 3.4.1
   cross-env: 7.0.3
   es6-object-assign: 1.1.0
   eslint: mirrors.tencent.com/eslint/8.2.0
@@ -46,6 +43,7 @@ devDependencies:
   less-loader: registry.npmmirror.com/less-loader/7.3.0_less@4.1.2
   lodash: 4.17.21
   prettier: 2.4.1
+  uiv: registry.npmjs.org/uiv/1.4.1
   vuepress: registry.npmmirror.com/vuepress/1.8.2
   vuepress-plugin-redirect: registry.npmmirror.com/vuepress-plugin-redirect/1.2.5
   vuepress-plugin-sitemap: registry.npmmirror.com/vuepress-plugin-sitemap/2.3.1
@@ -135,7 +133,7 @@ packages:
   /bootstrap/3.4.1:
     resolution: {integrity: sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==}
     engines: {node: '>=6'}
-    dev: false
+    dev: true
 
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -8563,7 +8561,7 @@ packages:
     version: 2.1.7
     peerDependencies:
       vue: ^2.5.18
-    dev: false
+    dev: true
 
   registry.npmjs.org/prettier/2.4.1:
     resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz}
@@ -8613,13 +8611,13 @@ packages:
       vue-functional-data-merge: registry.npmjs.org/vue-functional-data-merge/3.1.0
     transitivePeerDependencies:
       - vue
-    dev: false
+    dev: true
 
   registry.npmjs.org/vue-functional-data-merge/3.1.0:
     resolution: {integrity: sha512-leT4kdJVQyeZNY1kmnS1xiUlQ9z1B/kdBFCILIjYYQDqZgLqCLa0UhjSSeRX6c3mUe6U5qYeM8LrEqkHJ1B4LA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-functional-data-merge/-/vue-functional-data-merge-3.1.0.tgz}
     name: vue-functional-data-merge
     version: 3.1.0
-    dev: false
+    dev: true
 
   registry.npmjs.org/watchpack-chokidar2/2.0.1:
     resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz}
