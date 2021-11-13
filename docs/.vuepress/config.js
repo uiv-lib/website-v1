@@ -29,7 +29,7 @@ module.exports = {
       ga: 'UA-102731925-2',
     },
     sitemap: {
-      hostname: 'https://v1.uiv.wxsm.space',
+      hostname: 'https://uiv-v1.wxsm.space',
       dateFormatter: (time) => {
         // chinese date won't work here
         try {
